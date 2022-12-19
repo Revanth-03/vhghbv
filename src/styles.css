@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Navbar {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.Home {
+  margin-left: 50px;
+}
+.Navbar ul li {
+  list-style: none;
+  display: inline-flex;
+  padding: 10px;
+  flex-direction: row;
+}
+.Navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.Navbar ul li a:hover {
+  color: red;
+  /* border-bottom: 1px solid black; */
+}
+.container {
+  margin-left: 154px;
+  margin-right: 154px;
+}
+.CreatePost {
+  width: 90%;
+  margin-top: 70px;
+  margin-left: 10px;
+  /* margin:10px; */
+}
+.form-field {
+  margin: 10px;
+}
+.form-field label {
+  font-size: 35px;
+}
+.form-field input,
+.form-field textarea {
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  margin: 2px;
+}
+.form-field textarea {
+  height: 20vh;
+}
